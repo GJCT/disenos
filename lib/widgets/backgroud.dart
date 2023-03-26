@@ -23,8 +23,8 @@ class BackGround extends StatelessWidget {
         Container(decoration: boxDecoration),
         //Rosado
         Positioned(
-          top: -90,
-          left: -30,
+          top: -120,
+          left: -25,
           child: _Pink())
 
       ],
@@ -37,9 +37,9 @@ class _Pink extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Transform.rotate(
-      angle: -pi / 4.8,
+      angle: -pi / 4.6,
       child: Container(
-        width: 435,
+        width: 460,
         height: 440,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(80),
